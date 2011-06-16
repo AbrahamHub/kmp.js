@@ -1,4 +1,4 @@
-// Searches for the starting position of a string s in a string w using
+// Searches for the starting position of a string w in a string s using
 // Knuth-Morris-Pratt.
 var kmpSearch = function(s, w) {
   var slen = s.length,
