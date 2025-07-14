@@ -274,5 +274,6 @@ La tabla `T` tiene longitud `W.length + 1` para incluir el caso especial `T[leng
 - La implementación utiliza variables descriptivas para mejorar la legibilidad
 - El código incluye comentarios explicativos en puntos clave
 - La función principal está diseñada para ser reutilizable y modular
+- Link a la especiocaión del algoritmo [Knuth-Morris-Pratt][1]
 
 [1]: http://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm
