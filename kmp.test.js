@@ -60,9 +60,9 @@ function kmp_table(W) {
 }
 
 function testKMPSpecCompliant() {
-  console.log("=== PRUEBAS DE IMPLEMENTACIÓN KMP SEGÚN ESPECIFICACIÓN WIKIPEDIA ===\n");
+  console.log("=== PRUEBAS DE IMPLEMENTACIÓN KMP SEGÚN ESPECIFICACIÓN  ===\n");
   
-  console.log("1. EJEMPLO PRINCIPAL DE WIKIPEDIA:");
+  console.log("1. EJEMPLO PRINCIPAL:");
   var result1 = kmpSearch("ABC ABCDAB ABCDABCDABDE", "ABCDABD");
   console.log(`   Texto: "ABC ABCDAB ABCDABCDABDE"`);
   console.log(`   Patrón: "ABCDABD"`);
@@ -99,7 +99,7 @@ function testKMPSpecCompliant() {
     console.log(`     Esperado: ${expected}, Obtenido: ${result}`);
   });
   
-  console.log("\n=== ANÁLISIS DE TABLAS PARA EJEMPLOS DE WIKIPEDIA ===");
+  console.log("\n=== ANÁLISIS DE TABLAS===");
   
   var patterns = [
     { pattern: "ABACABAB", expected: [-1, 0, -1, 1, -1, 0, -1, 3, 2] },
